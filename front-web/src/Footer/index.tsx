@@ -1,7 +1,7 @@
 import './styles.css';
-import { ReactComponent as Youtube } from './youtube.svg';
-import { ReactComponent as Linkedin } from './linkedin.svg';
-import { ReactComponent as Instagram } from './instagram.svg';
+import { ReactComponent as YoutubeIcon } from './youtube.svg';
+import { ReactComponent as LinkedinIcon } from './linkedin.svg';
+import { ReactComponent as InstagramIcon } from './instagram.svg';
 
 function Footer() {
     return (
@@ -10,15 +10,15 @@ function Footer() {
 
             <div className="footer-icons">
                 <a href="http://www.youtube.com/c/DevSuperior" target="_new">
-                    <Youtube />
+                    <YoutubeIcon />
                 </a>
                 
                 <a href="http://www.youtube.com/c/DevSuperior" target="_new">
-                    <Linkedin />
+                    <LinkedinIcon />
                 </a>
                 
                 <a href="http://www.youtube.com/c/DevSuperior" target="_new">
-                    <Instagram />
+                    <InstagramIcon />
                 </a>
 
             </div>
